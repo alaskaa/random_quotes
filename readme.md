@@ -6,3 +6,6 @@ You can even tweet the quotes to share them with your network. Magic!
 
 Find it at:
 https://alaskaa.github.io/random_quotes/
+
+Photo Credit:
+Michał Parzuchowski on Unsplash
