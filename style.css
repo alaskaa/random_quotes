@@ -1,0 +1,47 @@
+body {
+  background-image: url("images/mountains.jpg");
+  font-family: "Droid Sans";
+  color: rgba(255, 255, 255, 0.8);
+  padding: 20px 20px 20px 20px;
+}
+
+h1 {
+  font-family: "Tangerine";
+}
+
+.centered-box-prof {
+    margin: auto;
+    padding: 40px;
+    border-radius: 45px;
+}
+
+ p {
+  color: #606860;
+  font-family: "Tangerine";
+  font-size: 30px;
+}
+
+#tweetme {
+  font-size: 20px;
+  color: #606860;
+}
+
+#tab {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#quote-button {
+  background: rgba(255, 255, 255, 0.8);
+  font-family: "Tangerine";
+  color: #606860;
+}
+
+#tweetme-button {
+  color: #606860;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.alignment {
+  text-align: center;
+}
