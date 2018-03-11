@@ -2,6 +2,7 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="UTF-8">
+  <meta name="description" content="Motivational quotes generated automatically">
   <title>Random Quote Generator</title>
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Tangerine" rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
@@ -12,22 +13,25 @@
 </head>
 
 <body>
+  <header>
+    <h1 class="sr-only">Random Quote Generator</h1>
+  </header>
+  <main>
   <center>
-  <br>
-  <br>
-  <br>
-  <div class="centered-box-prof">
-    <p id="newquote"></p>
-  </div>
-  <br>
-  <br>
-  <div class="alignment">
-  <button class="btn" id="tweetme-button"><span><a id="tweetme" href="https://twitter.com/share" target="_blank "><i class="icon-social-twitter icon-size"></i></a></span></button><span id="tab"> <button class="btn" id="quote-button">New quote</button></span>
-  </div>
+    <br>
+    <br>
+    <br>
+    <div class="centered-box-prof">
+      <p id="newquote" alt="The API generated quote"></p>
+    </div>
+    <br>
+    <br>
+    <div class="alignment">
+      <button class="btn" id="tweetme-button"><span><a id="tweetme" href="https://twitter.com/share" target="_blank "><i class="icon-social-twitter icon-size"></i></a></span></button><span id="tab"> <button class="btn" id="quote-button">New quote</button></span>
+    </div>
   </center>
-    <script src="main.js">
-    </script>
+  <main>
+  <script src="main.js">
+  </script>
 </body>
-
-
 </html>

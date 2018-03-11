@@ -5,6 +5,16 @@ body {
   padding: 20px 20px 20px 20px;
 }
 
+.sr-only {
+  position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+
+
 .centered-box-prof {
     margin: auto;
     padding: 40px;
